@@ -1,0 +1,13 @@
+!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript Find index</h2>
+        <p id="demo"></p>
+        <script>
+            const numbers = [1,4,9,25,29];
+            document.getElementById("demo").innerHTML="First number has index " + numbers.findIndex((value,index,array) => {
+                return value>18;
+            });
+        </script>
+    </body>
+</html>
